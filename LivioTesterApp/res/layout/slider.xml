@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    >
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+        android:orientation="vertical" >
+	    
+	    <EditText android:id="@+id/et_slider_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:freezesText="true"
+	        android:inputType="textCapWords"
+	        android:hint="@string/slider_title"/>
+	    
+        <CheckBox android:id="@+id/cb_dynamicFooter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dynamicFooter"/>
+        
+	    <EditText android:id="@+id/et_slider_footer"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:freezesText="true"
+	        android:inputType="textCapWords"
+	        android:hint="@string/slider_footer"/>
+	    
+	    <TextView android:id="@+id/tv_slider_numOfTicks"
+	        style="@style/small_header_text"
+	        android:text="@string/slider_ticks"/>
+	    
+	    <SeekBar android:id="@+id/seek_slider_numOfTicks"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:max="24"
+	        android:progress="0"
+	        />
+	    
+	    <TextView android:id="@+id/tv_slider_startPosition"
+	        style="@style/small_header_text"
+	        android:text="@string/slider_start_position"/>
+	    
+	    <SeekBar android:id="@+id/seek_slider_startPosition"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:max="25"
+	        android:progress="0"
+	        />
+	    
+	    <TextView android:id="@+id/tv_slider_timeout"
+	        style="@style/small_header_text"
+	        android:text="@string/timeout"/>
+	    
+	    <SeekBar android:id="@+id/seek_slider_timeout"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:max="64"
+	        android:progress="10"
+	        />
+	
+	</LinearLayout>
+</ScrollView>

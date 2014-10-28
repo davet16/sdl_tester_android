@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_connect" android:title="@string/menu_connect"></item>
+    <item android:id="@+id/menu_disconnect" android:title="@string/menu_disconnect"></item>
+    <item android:id="@+id/menu_reset" android:title="@string/menu_reset"></item>
+    <item android:id="@+id/menu_clear_list" android:title="@string/menu_clear_list"></item>
+    <item android:id="@+id/menu_help" android:title="@string/menu_help"></item>
+
+</menu>

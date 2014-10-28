@@ -1,0 +1,91 @@
+<resources>
+
+<!--     General Strings -->
+    <string name="app_name">Livio SDL Tester</string>
+    <string name="sdl_disconnected">SDL has been disconnected</string>
+    
+<!--     Dialog Strings -->
+    <string name="positive_button">OK</string>
+    <string name="negative_button">Cancel</string>
+    
+<!--     Add Command -->
+    <string name="add_command_command_name">Command Name</string>
+    <string name="add_command_vr_keyword">Voice Recognition Keyword</string>
+    <string name="add_command_parent_menu">Parent Menu:</string>
+    <string name="add_command_image_type">Image Type:</string>
+    
+<!--     Delete Command -->
+    <string name="no_commands_to_delete">There are no commands to delete.</string>
+    
+<!--     Delete Submenu -->
+    <string name="no_submenus_to_delete">There are no submenus to delete.</string>
+    
+<!--     Add Submenu -->
+    <string name="submenu_name">Submenu Name</string>
+    
+<!--     Get DTCs and Read DIDs -->
+    <string name="ecu_name">ECU Name (0&#8211;65535)</string>
+    <string name="did_location">DID Location (0&#8211;65535)</string>
+    
+<!--     Slider -->
+    <string name="slider_title">Slider Title</string>
+    <string name="slider_footer">Slider Footer</string>
+    <string name="slider_ticks">Number of slider ticks: </string>
+    <string name="slider_start_position">Start position: </string>
+    <string name="timeout">Timeout: </string>
+    
+<!--     Scrollable Message -->
+    <string name="scrollable_message_text">"\"\'My mind,\' he said, \'rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession,&#8211;or rather created it, for I am the only one in the world.\'\"\n\n&#8211; Sherlock Holmes by Sir Arthur Conan Doyle"</string>
+    <string name="scrollable_message_hint">Enter a long message (500 chars max)</string>
+    <string name="scrollable_message_clear">Clear Text</string>
+
+<!--     Create Interaction Choice Set -->
+    <string name="max_choices">You have reached the max number of choices.</string>
+    <string name="item_number">Item #</string>
+    
+<!--     Choice Set Item -->
+    <string name="item_number1">Item #1</string>
+    <string name="choice_name">Choice Name</string>
+    <string name="voice_keyword">Voice Recognition Keyword</string>
+    <string name="use_artwork">Use artwork?</string>
+    
+<!--     Soft Button Item -->
+    <string name="soft_button_name">Soft Button Name</string>
+    <string name="soft_button_highlight">Highlight</string>
+    <string name="soft_button_system_action">System Action</string>
+    
+<!--     Change Registration -->
+    <string name="language">Language</string>
+    <string name="hmi_language">HMI Display Language</string>
+    
+<!--     Alert Dialog -->
+    <string name="text_to_speak">Text to Speak</string>
+    <string name="alert_line1">Alert Line #1</string>
+    <string name="alert_line2">Alert Line #2</string>
+    <string name="alert_line3">Alert Line #3</string>
+    <string name="alert_sound_enabled">Alert sound enabled</string>
+    <string name="alert_duration_s">Alert Duration (in seconds)</string>
+    <string name="alert_duration_ms">Alert Duration (in milliseconds)</string>
+    
+<!--     Show Dialog -->
+    <string name="metadata_lines">Metadata Lines</string>
+    <string name="metadata_line1">Metadata Line #1</string>
+    <string name="metadata_line2">Metadata Line #2</string>
+    <string name="metadata_line3">Metadata Line #3</string>
+    <string name="metadata_line4">Metadata Line #4</string>
+    <string name="text_alignment">Text Alignment</string>
+    <string name="status_bar">Status Bar</string>
+    <string name="media_track">Media Track</string>
+    <string name="media">Media</string>
+    <string name="clock">Clock</string>
+    <string name="clock_hrs">HH</string>
+    <string name="clock_mins">MM</string>
+    <string name="clock_secs">SS</string>
+    <string name="colon">:</string>
+    
+    <string name="media_clock_timer_mode">Timer Mode</string>
+    
+<!--     Unit Suffixes -->
+    <string name="units_seconds"> s</string>
+    <string name="units_milliseconds"> ms</string>
+</resources>
