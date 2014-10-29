@@ -161,37 +161,22 @@ public class ShowDialog extends BaseOkCancelDialog{
 			
 			if(et_show1.isEnabled()){
 				line1 = et_show1.getText().toString();
-				if(line1.length() <= 0){
-					line1 = " ";
-				}
 			}
 			
 			if(et_show2.isEnabled()){
 				line2 = et_show2.getText().toString();
-				if(line2.length() <= 0){
-					line2 = " ";
-				}
 			}
 			
 			if(et_show3.isEnabled()){
 				line3 = et_show3.getText().toString();
-				if(line3.length() <= 0){
-					line3 = " ";
-				}
 			}
 			
 			if(et_show4.isEnabled()){
 				line4 = et_show4.getText().toString();
-				if(line4.length() <= 0){
-					line4 = " ";
-				}
 			}
 			
 			if(et_statusBar.isEnabled()){
 				statusBar = et_statusBar.getText().toString();
-				if(statusBar.length() <= 0){
-					statusBar = " ";
-				}
 			}
 			
 			if(spin_textAlignment.getSelectedItemPosition() != 0){

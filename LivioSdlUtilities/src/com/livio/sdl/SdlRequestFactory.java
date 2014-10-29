@@ -562,19 +562,19 @@ public final class SdlRequestFactory {
 	 */
 	public static RPCRequest show(String line1, String line2, String line3, String line4, String statusBar, TextAlignment alignment, String imageName){
 		Show result = new Show();
-		if(line1 != null && line1.length() > 0){
+		if(line1 != null){
 			result.setMainField1(line1);
 		}
-		if(line2 != null && line2.length() > 0){
+		if(line2 != null){
 			result.setMainField2(line2);
 		}
-		if(line3 != null && line3.length() > 0){
+		if(line3 != null){
 			result.setMainField3(line3);
 		}
-		if(line4 != null && line4.length() > 0){
+		if(line4 != null){
 			result.setMainField4(line4);
 		}
-		if(statusBar != null && statusBar.length() > 0){
+		if(statusBar != null){
 			result.setStatusBar(statusBar);
 		}
 		if(alignment != null){

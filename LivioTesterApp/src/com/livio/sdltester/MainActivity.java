@@ -362,7 +362,7 @@ public class MainActivity extends Activity{
 		// set up the main lines of text
 		String showText1 = "Livio SDL Tester";
 		String showText2 = "Send SDL Commands";
-		String showText3 = " ";
+		String showText3 = "";
 		// showText4 is not applicable since this is set up as a media application
 		
 		// set up the image to show
